@@ -1,0 +1,180 @@
+body{
+  background-color: rgb(114, 4, 114);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+}
+
+.welcome {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(153, 17, 153);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+}
+
+.container{
+  background-color: white;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 30px;
+}
+.about{
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+}
+.news{
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+}
+.contact{
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+}
+.about:hover{
+  background-color: rgb(200, 209, 216);
+}
+.news:hover{
+  background-color: rgb(200, 209, 216);
+}
+.contact:hover{
+  background-color: rgb(200, 209, 216);
+}
+
+.imagepg{
+  margin-top: 60px;
+  border-radius: 20px;
+  background-color: white;
+  height: 10px;
+  width: 200px;
+  margin-bottom: 0px;
+}
+.imagepgg{
+  border-radius: 20px;
+  background-color: white;
+  height: 10px;
+  width: 180px;
+  margin-bottom: 0px;
+}
+.imagepggg{
+  border-radius: 20px;
+  background-color: white;
+  height: 10px;
+  width: 160px;
+  margin-bottom: 9px;
+}
+.mage{
+  border-radius: 20px;
+  width: 80%;
+}
+.h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  width: 250px;
+}
+.secondimg{
+  border-radius: 20px;
+  width: 80%;
+}
+.sie{
+  margin-top: 50px;           
+  border-radius: 20px;
+  background-color: white;
+  height: 10px;
+  width: 200px;
+  margin-bottom: 0px;
+}
+.siee{
+  border-radius: 20px;
+  background-color: white;
+  height: 10px;
+  width: 180px;
+  margin-bottom: 0px;
+}
+.sieee{         
+  border-radius: 20px;
+  background-color: white;
+  height: 10px;
+  width: 160px;
+  margin-bottom: 10px;
+}
+.motivation{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  width: 250px;
+}
+
+.lastcontainer{
+  margin-top: 20px;
+  background-color: rgb(124, 48, 124);
+  height: 250px;
+  width: 100%;
+}
+.contacthere{
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 10px;
+}
+.firstinput{
+  text-align: start;
+  text-size-adjust: inherit;
+  width: 70%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.secondinput{
+  text-align: start;
+  text-size-adjust: inherit;
+  width: 70%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.sendimg{
+  height: 20px;
+}
+.sendbtn{
+  padding: 3px;
+  margin-top: 9px;
+  width: 210%;
+  background-color: rgb(159, 112, 202);
+  border-radius: 13px;
+  border: none;
+  height: 44px;
+}

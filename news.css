@@ -1,0 +1,8 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
